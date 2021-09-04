@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Андрей Браун - веб-разработчик</title>
+</head>
+<body>
+     <header>
+         <div class="logo">
+             <a href="#">Андрей Браун</a>
+         </div>
+             <nav class="menu">
+                 <ul class="menu__list">
+                     <li class="menu__item">Обо мне</li>
+                     <li class="menu__item">Услуги</li>
+                     <li class="menu__item">Кейсы</li>
+                     <li class="menu__item">Прайс</li>
+                     <li class="menu__item">Отзывы</li>
+                     <li class="menu__item">Контакты</li>
+                 </ul>
+             </nav>
+         
+     </header>
+     
+     <main>
+        
+        <section class="main" id="main">
+           <div class="title__container">
+               <h1>Привет<br>Я Андрей Браун</h1>
+               <h2>Фулл стек Веб-разработчик и Android-разработчик</h2>
+               <a class="btn btn__about" href="#about_me">Обо мне</a>
+               <a class="btn btn_case" href="#case">Мои работы</a>
+               <br>
+               <img src="img/man.png" alt="Парень">
+           </div>
+            
+        </section>
+        
+         <section class="about_me" id="about_me">
+             <div class="container">
+                 <h2>Обо мне</h2>
+                 <img src="img/about__photo.png" alt="Андрей Браун Фото" width="204" height="204">
+                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem sapiente minus consectetur eveniet vero quia, fuga, veritatis culpa, quas perferendis magni ipsum officiis amet nihil temporibus cupiditate magnam quidem, sit.</p>
+                 <br>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, vero. Excepturi vel nam fuga. Accusantium vero maxime enim, nisi deleniti aspernatur at accusamus, reiciendis voluptas necessitatibus! Saepe neque, fugit aliquam.</p>
+             </div>
+             <a class="btn download" href="#"><img src="img/download.png" alt="Скачать резюме">Скачать резюме</a>
+             
+         </section>
+         
+         <section class="skill">
+             <div class="container">
+                <h2>Что я умею</h2>
+                <br><img src="img/line.png" alt="Линия">
+                 <div class="skill__block design">
+                     <img src="img/design.png" alt="Веб-дизайн">
+                     <h3 class="skill__title">Веб-дизайн</h3>
+                     <p class=skill__description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, ducimus!</p>
+                 </div>
+                  <div class="skill__block dev">
+                     <img src="img/dev.png" alt="Разработка">
+                     <h3 class="skill__title">Разработка</h3>
+                     <p class=skill__description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero, numquam.</p>
+                 </div>
+                  <div class="skill__block seo">
+                     <img src="img/seo.png" alt="СЕО-Оптимизация">
+                     <h3 class="skill__title">СЕО-Оптимизация</h3>
+                     <p class=skill__description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, debitis!</p>
+                 </div>
+                  <div class="skill__block marketing">
+                     <img src="img/marketing.png" alt="Маркетинг">
+                     <h3 class="skill__title">Маркетинг</h3>
+                     <p class=skill__description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi, voluptas!</p>
+                 </div>
+             </div>
+         </section>
+         
+         <section class="case"  id="case">
+           <div class="container">
+                <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, quae!</h2>
+                <br><img src="img/line.png" alt="Линия">
+                <div class="case__container">
+                    <img src="img/case_example.png" alt="Скриншот кейса" class="case__img">
+                        <div class="case__contacts">
+                            <h3>Client</h3>
+                            <p>Какая-то компания</p>
+                            <h3>Website</h3>
+                            <a href="#">http://somedomain.com</a>
+                            <h3>Название проекта</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae illum odio natus, in fuga aliquam, quisquam neque autem eos error, quos magnam deleniti explicabo id expedita excepturi saepe veniam odit.</p>
+                      </div>
+                    <a class="btn" href="#">Visit live site</a>
+                 </div>
+             </div>
+         </section>
+         
+         <section class="price">
+             <div class="container">
+                <h2>Расчет стоимости</h2>
+                <form action="#" method="POST">
+                    <p>Тип сайта</p>
+                    <select name="type_site" id="type_site">
+                        <option value="landing_page">Лэндинг</option>
+                        <option value="site_visiting">Сайт-визитка</option>
+                        <option value="online_shop">Интернет-магазин</option>
+                        <option value="corp_site">Корпоративный сайт</option>
+                    </select>
+                    <p>Дизайн</p>
+                    <select name="design_site" id="design_site">
+                        <option value="design1">Дизайн 1</option>
+                        <option value="design2">Дизайн 2</option>
+                    </select>
+                    <p>Адаптивность</p>
+                    <select name="adaptive" id="adaptive">
+                        <option value="adaptive">Адаптивность</option>
+                    </select>
+                    <hr>
+                    <p>Сроки</p>   
+                    <span>0</span>
+                    <p>Стоимость</p>
+                    <span>0</span>
+                </form>
+             </div>
+         </section>
+         
+         <section class="statistics">
+         <div class="container">
+             <h2>Немного статистики</h2>
+             <br><img src="img/line.png" alt="Линия">
+                 <div class="statistics__block">
+                     <img src="img/smile.png" alt="Счастливые клиенты">
+                     <h3 class="statistics__title">120</h3>
+                     <p class="statistics_description">счастливых клиентов</p>
+                 </div>
+                 <div class="statistics__block">
+                     <img src="img/time.png" alt="часов работы">
+                     <h3 class="statistics__title">4,600</h3>
+                     <p class="statistics_description">часов работы</p>
+                 </div>
+                 <div class="statistics__block">
+                     <img src="img/complete.png" alt="проектов завершено">
+                     <h3 class="statistics__title">340</h3>
+                     <p class="statistics_description">проектов завершено</p>
+                 </div>
+                 <div class="statistics__block">
+                     <img src="img/raiting.png" alt="наград получено">
+                     <h3 class="statistics__title">23</h3>
+                     <p class="statistics_description">получено наград</p>
+                 </div>
+             </div>
+         </section>
+         
+         <section class="reviews">
+             <div class="container">
+                 <h2>Отзывы</h2>
+                 <br><img src="img/line.png" alt="Линия">
+                 <img src="img/review.png" alt="Отзыв">
+                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, ea eos nam earum cum, suscipit voluptatibus, autem rerum iste aspernatur quas assumenda. Rerum consectetur, quia alias hic magnam voluptatem. Sint!</p>
+                 <p><b>Михаил, </b>Ген директор ПАО "Газпром"</p>
+                 <input type="radio" class="reviews__switch" checked>
+                 <input type="radio"  class="reviews__switch">
+                 <input type="radio" class="reviews__switch">
+             </div>
+         </section>
+         
+         <section class="contacts">
+            <div class="container">
+                <br><img src="img/line.png" alt="Линия">
+                 <h2>Мои контакты</h2>
+                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, rerum.
+                 <div class="contacts_block geo">
+                    <img src="img/geo.png" alt="Адрес">
+                     <h3>Санкт-Петербург<br>Невский проспект 11</h3>
+                 </div>
+                 <div class="contacts_block email">
+                    <img src="img/email.png" alt="Почта">
+                     <h3><a href="mailto:#">info@companyname.com</a></h3>
+                 </div>
+                 <div class="contacts_block phone_number">
+                    <img src="img/phone_number.png" alt="Номер телефона">
+                     <h3><a href="tel:#">+7 999 999 99 99</a></h3>
+                 </div>
+                 <h3>Оставьте мне сообщение</h3>
+                 <form action="#" method="POST">
+                     <input type="text" class="name" placeholder="Имя">
+                     <input type="email" class="email">
+                     <br>
+                     <textarea type="text" name="msg" id="msg" cols="30" rows="10" placeholder="Сообщение"></textarea>
+                     <br>
+                     <input type="submit" class="btn" value="Отправить">
+                 </form>
+                 <div class="social__block">
+                     <ul class="social__list">
+                         <li class="social__item"><a href="#"><img src="img/social/fb.png" alt="FB"></a></li>
+                         <li class="social__item"><a href="#"><img src="img/social/twitter.png" alt="Twitter"></a></li>
+                         <li class="social__item"><a href="#"><img src="img/social/ball.png" alt="Ball"></a></li>
+                         <li class="social__item"><a href="#"><img src="img/social/cat.png" alt="Cat"></a></li>
+                         <li class="social__item"><a href="#"><img src="img/social/instagram.png" alt="Instagram"></a></li>
+                         <li class="social__item"><a href="#"><img src="img/social/in.png" alt="In"></a></li>
+                     </ul>
+                 </div>
+            </div>
+         </section>
+         <section class="map">
+             <div style="width: 100%">
+                 <iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=New%20Boston+(Map)&amp;t=p&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+             </div>
+         </section>
+         
+     </main>
+    
+    <footer>
+        Copyright©2021 Андрей Браун. Design by Web
+    </footer>
+
+</body>
+</html>
